@@ -1,0 +1,287 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10
+			}
+		},
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "演示页面"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fbf0ee",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/text/text",
+			"style": {
+				"navigationBarTitleText": "随机单",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/blind_box_order/blind_box_order",
+			"style": {
+				"navigationBarTitleText": "随机盲盒",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shop_text/shop_text",
+			"style": {
+				"navigationBarTitleText": "店员详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/submit_salesclerk/submit_salesclerk",
+			"style": {
+				"navigationBarTitleText": "新店员申请",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/update_userinfo/update_userinfo",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user_order/user_order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10
+			}
+		},
+		{
+			"path": "pages/user/user_money/user_money",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user_reward/user_reward",
+			"style": {
+				"navigationBarTitleText": "我的打赏",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/salesclerk_centre",
+			"style": {
+				"navigationBarTitleText": "店员中心",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user_recharge_record/user_recharge_record",
+			"style": {
+				"navigationBarTitleText": "充值记录",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/update_information/update_information",
+			"style": {
+				"navigationBarTitleText": "店员资料",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/reward/reward",
+			"style": {
+				"navigationBarTitleText": "收到打赏",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/all_order/all_order",
+			"style": {
+				"navigationBarTitleText": "全部订单",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 15
+			}
+		},
+		{
+			"path": "pages/user/user_order/order_shoptext",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10
+			}
+		},
+		{
+			"path": "pages/user/user_reward/user_rewardtext",
+			"style": {
+				"navigationBarTitleText": "打赏详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user_recharge_record/user_recharge_recordtext",
+			"style": {
+				"navigationBarTitleText": "充值详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10
+			}
+		},
+		{
+			"path": "pages/ranking_list/ranking_list",
+			"style": {
+				"navigationBarTitleText": "土豪排行榜",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/order_log/order_log",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/ranking_list/ranking_list",
+			"style": {
+				"navigationBarTitleText": "店员排行榜",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10
+			}
+		},
+		{
+			"path": "pages/Confession/Confession",
+			"style": {
+				"navigationBarTitleText": "告白墙",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 10
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/all_order/order_shoptext/order_shoptext",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/update_userinfo/yhxy/yhxy",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/reward/reward_shoptext",
+			"style": {
+				"navigationBarTitleText": "打赏详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/tixian_log/tixian_log",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/salesclerk_centre/training/training",
+			"style": {
+				"navigationBarTitleText": "店员培训",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		// #ifndef MP-ALIPAY
+		"navigationBarBackgroundColor": "#F8F8F8",
+		// #endif
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png"
+
+			},
+			{
+				"text": "盲盒",
+				"pagePath": "pages/blind_box_order/blind_box_order",
+				"iconPath": "static/suiji.png"
+			}, {
+				"text": "告白墙",
+				"pagePath": "pages/Confession/Confession",
+				"iconPath": "static/taber_icon/phb.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/user.png"
+			}
+		]
+	}
+}
